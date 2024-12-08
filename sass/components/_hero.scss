@@ -1,0 +1,33 @@
+.hero {
+    background-color: $footer-background;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    text-align: center;
+
+}
+
+.hero-title {
+    color: $main-background;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    /* 136.364% */
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+
+}
+
+.hero-button {
+    color: $main-background;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.87;
+    /* 187.5% */
+    letter-spacing: 0.96px;
+    background-color: $header-logo;
+    margin-top: 45px;
+    padding: 10px 32px;
+    border-radius: 4px;
+}

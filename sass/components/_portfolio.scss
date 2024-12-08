@@ -1,0 +1,51 @@
+.card {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.card-title {
+    color: $accent-color;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    /* 200% */
+    letter-spacing: 1.08px;
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.card-text {
+    color: $aditional-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+    letter-spacing: 0.48px;
+}
+
+.btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding-top: 100px;
+    padding-bottom: 56px
+}
+
+.btn-btn {
+    padding: 6px 25px;
+    background-color: $team-background;
+    border-radius: 4px;
+
+
+}
+
+.btn-btn:hover {
+    background-color: $header-logo;
+    color: white;
+}

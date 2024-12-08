@@ -1,0 +1,44 @@
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: $team-background;
+}
+
+.team-list {
+    margin-top: 92px;
+    margin-bottom: 94px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.team-title {
+    color: $accent-color;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    margin-bottom: 50px;
+}
+
+.team-caption {
+    color: $accent-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.team-text {
+    color: $aditional-color;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
