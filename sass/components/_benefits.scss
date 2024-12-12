@@ -1,0 +1,29 @@
+.benefits {
+    margin-top: 94px;
+
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.benefits-title {
+    color: $accent-color;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.benefits-text {
+    color: $aditional-color;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    /* 171.429% */
+    letter-spacing: 0.42px;
+}
